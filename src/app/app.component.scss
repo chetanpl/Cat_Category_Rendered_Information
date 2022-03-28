@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+$controlBackground:#65277e;
+$ContainerBackground:#d8e0e6;
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial;
+  }
+  .header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #555;
+    display: flex;
+    color: #b9924b;
+    font-size: 33px;
+    margin-bottom: 71px;
+    background-color: white;
+  }
+  
+  .header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+    text-align: center;
+    justify-content: center;
+    color: orange;
+  }
+  .container{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(196deg, #ffffff, #f3e8f8);
+  margin-left: 30px;
+  flex-wrap: wrap;
+}

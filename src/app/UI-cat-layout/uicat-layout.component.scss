@@ -1,0 +1,48 @@
+.col{
+    font: 16px/26px Georgia, "Times New Roman", Times, serif;
+}
+.col__item-box{
+    width: 30rem;
+    margin: auto 2rem;
+}
+.col__text-center{
+    text-align: center;
+    text-transform: uppercase;
+    color: #ff9375;
+    font-weight: 100;
+    }
+        
+    .col__card-img{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 23px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+    cursor:pointer;
+    pointer-events: auto;
+    z-index: 2;
+}
+.col__hand{
+    cursor:pointer;
+    pointer-events: auto;
+    z-index: 2;
+}
+.col__card-img:hover{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 23px;
+    box-shadow: 0 15px 20px rgba(5, 1, 1, 0.15);
+}
+.col__bold{
+    font-weight: bold;
+}
+.cat-decription .cat-text{padding: 6px;
+    word-wrap: break-word;
+    width: 30rem;
+    margin: 1rem 2rem;
+    background: #406b91;
+    border-radius: 7px;
+    color: white;
+    font-size: 14px;font-weight: 100;
+    box-shadow: 0 15px 20px rgba(5, 1, 1, 0.15)
+}

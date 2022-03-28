@@ -19,13 +19,13 @@ describe('AppComponent', () => {
   it(`should have as title 'catBreadWebsite'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('catBreadWebsite');
+    expect(app.title).toEqual('List of cat bread');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('catBreadWebsite app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('List of cat bread app is running!');
   });
 });
